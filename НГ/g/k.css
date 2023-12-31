@@ -1,0 +1,13 @@
+html{
+    background:url('имг/r.jpg') no-repeat  center;
+
+    min-height:100%;
+
+    background-size:cover;}
+    body{
+        min-height:100%;
+    }
+    p{
+        text-align: center;
+        color: brown;
+    }

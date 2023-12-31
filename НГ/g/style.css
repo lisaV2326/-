@@ -1,0 +1,46 @@
+.C {
+    color: red;
+    border: 10px;
+    border-color: black;
+    text-align: center;
+    animation-name: destraSinistra;
+  animation-duration: 3s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse 
+}
+
+    @keyframes destraSinistra {
+        0% {
+          left: 0;
+          left: 0%;
+        color: rgb(209, 15, 15);
+        right: unset;
+        }
+        50% {
+            left:50%;
+            right: 50%;}
+        100% {
+          left: 10%;
+          transform:translateX(-20%);
+          left:unset;
+          right: 0px;
+          color: rgb(196, 11, 202);
+        }}
+      
+
+
+#i {
+    text-align: center;
+    margin-left: 5%;
+}
+
+html{
+    background:url('имг/1.png') no-repeat  center;
+
+    min-height:100%;
+
+    background-size:cover;}
+    body{
+        min-height:100%;
+    }

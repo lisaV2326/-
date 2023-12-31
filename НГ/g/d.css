@@ -1,0 +1,26 @@
+html{
+    background:url('имг/1.png') no-repeat  center;
+
+    min-height:100%;
+
+    background-size:cover;}
+    body{
+        min-height:100%;
+    }
+.u{
+margin-left: 20%;
+}
+@keyframes destraSinistra {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+.u {
+    animation-name: destraSinistra;
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse; 
+}
