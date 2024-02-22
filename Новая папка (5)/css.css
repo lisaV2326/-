@@ -1,0 +1,56 @@
+#shar {
+    text-align: center;
+    margin-top: -30%;
+    z-index: 1;
+}
+#sha{
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: calc(250px );
+    left: calc(410px);
+}
+#sh {
+    margin-left: 250px;
+    margin-right: 100px;
+    z-index: 3;
+}
+
+.qwe{
+    margin-left: 300px;
+}
+#inp{
+    margin-top: 300px;
+    width: 300px;
+    height: 30px;
+    font-size: 1em;
+}
+#b{
+    height: 35px;
+    font-size: 1em;
+}
+#ball{
+text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: calc(250px );
+    left: calc(410px);
+}
+
+html, body {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(51, 30, 30);
+
+}
+#but{
+    background-color: rgb(214, 126, 126);
+    margin-top: 50px;
+    margin-left: 450px;
+    font-size: 1em;
+}
+
+      
+#ere{
+    margin-top: 100px;
+}
