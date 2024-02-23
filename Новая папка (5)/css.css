@@ -1,19 +1,21 @@
 #shar {
-    text-align: center;
+ 
     margin-top: -30%;
     z-index: 1;
 }
 #sha{
-    text-align: center;
-    z-index: 1;
+    display: block;
+    margin: auto;
+    z-index: 0;
     position: absolute;
-    top: calc(250px );
-    left: calc(410px);
+    margin-top: 150px ;
+    margin-left: 400px;
 }
 #sh {
+
     margin-left: 250px;
     margin-right: 100px;
-    z-index: 3;
+    z-index: 2;
 }
 
 .qwe{
@@ -30,14 +32,19 @@
     font-size: 1em;
 }
 #ball{
-text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
     position: absolute;
-    top: calc(250px );
-    left: calc(410px);
+    margin-top: -100px ;
+    margin-left: 400px;
 }
 
 html, body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
     height: 400px;
     background-color: rgb(51, 30, 30);
@@ -46,7 +53,7 @@ html, body {
 #but{
     background-color: rgb(214, 126, 126);
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 420px;
     font-size: 1em;
 }
 
